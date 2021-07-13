@@ -17,9 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Vita ELF hacking & game reverse engineering'
+project = 'Vita game translation notes'
 copyright = '2021, raehik'
 author = 'raehik'
+
+# not project documentation, so override (defaults to "<project> documentation")
+html_title = "Vita game translation notes"
 
 
 # -- General configuration ---------------------------------------------------
