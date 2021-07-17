@@ -23,5 +23,5 @@ expected.
 
 You can also select ``Refresh license database``, which appears to put all
 available game, DLC etc. licenses into a database which VitaShell can use to
-regenerate licenses if they go missing. I don't _think_ it's important for DLC
+regenerate licenses if they go missing. I don't *think* it's important for DLC
 installation however.
