@@ -25,6 +25,7 @@ your own legally-owned media for your own use.
 
    TODO
    repacking-eboots
+   manual-dlc
    tools
 
 
