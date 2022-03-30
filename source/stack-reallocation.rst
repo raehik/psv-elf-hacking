@@ -118,6 +118,12 @@ need to do any manual disassembly, I recommend analysing instructions involving
 ``sp``. I have little guidance for this part, because the first, dumbest thing I
 tried worked.
 
+To relocate a stack local quickly using Ghidra, find the next one you want to
+relocate in the stack frame (right click memory listing at function definition,
+``Function -> Edit Stack Frame...``), right click any instance of it in the
+memory listing, ``References -> Show references to [var]``, and shift every
+instance as you need.
+
 
 Use the newly-prepared memory
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -125,3 +131,10 @@ Use the newly-prepared memory
 You might have to patch some arguments sent to functions to increase lengths,
 perhaps in the function or in the function's callers. Depends entirely on the
 program.
+
+
+TODO
+----
+
+* Might have a ton of unused stack space already due to aligning? Up to 0x50.
+  Should see what happens if I move stuff into there lol.
