@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Vita game translation notes'
-copyright = '2021, raehik'
+project = 'Vita executabl reversing notes'
+copyright = '2021-2022 raehik'
 author = 'raehik'
 
 # not project documentation, so override (defaults to "<project> documentation")
-html_title = "Vita game translation notes"
+html_title = "Vita executable reversing notes"
 
 
 # -- General configuration ---------------------------------------------------

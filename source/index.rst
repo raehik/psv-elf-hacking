@@ -28,6 +28,10 @@ your own legally-owned media for your own use.
    manual-dlc
    tools
 
+   vita-hardware
+   ghidra
+   stack-reallocation
+
 
 
 Indices and tables
